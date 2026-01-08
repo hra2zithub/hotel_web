@@ -3,10 +3,10 @@ var util=require('util')
 
 
 var conn=mysql.createConnection({
-    host:"bmmcycfikksqaa4hdrwu-mysql.services.clever-cloud.com",
-    user:"uudbnps9cnq5gyls",
-    password:"pgdedfGJPUfOc2I2MjtY",
-    database:"bmmcycfikksqaa4hdrwu"
+    host:"bz9jlcqgbhvemektxlfq-mysql.services.clever-cloud.com",
+    user:"uv6f7knnqmjkhra2",
+    password:"OvhFZERenLA4zWILqzSY",
+    database:"bz9jlcqgbhvemektxlfq"
 })
 var exe=util.promisify(conn.query).bind(conn)
 
